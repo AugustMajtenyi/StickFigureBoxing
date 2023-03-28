@@ -59,9 +59,9 @@ function preload() {
     //canvas.("myCanvas"); // Link the canvas to the <canvas> element in the HTML
     //createCanvas(800, 500).("myCanvas")
     createCanvas(800, 500);
-        canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: -750px";
+        canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: 100px";
     createButtons()
-        //button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 300px";
+        //button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 100px";
 
   }
   
