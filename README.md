@@ -8,6 +8,6 @@ To use on your own computer, you'll need to install jQuery and host a local serv
 
 ______________________________________________________________________________________________________________________
 
-Addiitonal Notes:
+Additional Notes:
 
-Game has not been developed for mobile.
+This game has not been developed for mobile.
