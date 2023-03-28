@@ -59,9 +59,9 @@ function preload() {
     //canvas.("myCanvas"); // Link the canvas to the <canvas> element in the HTML
     //createCanvas(800, 500).("myCanvas")
     createCanvas(800, 500);
-        canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: 100px";
+        canvas.style = "position:absolute; left: 50%; width: 800px; margin-left: -400px; margin-top: -750px";
     createButtons()
-        //button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 100px";
+        //button.style = "position:absolute; left: 50%; width: 180px; margin-left: -90px; margin-top: 300px";
 
   }
   
@@ -407,20 +407,20 @@ function preload() {
       button = createButton('Player v Player Game');
       button.size(180,50)
       //button2.position(310, 295);
-      button.position(windowWidth/2 - 90,340+295)
+      button.position($(window).width()/2 - 90,340+295)
       //button.style = "{position: absolute; width: 180px; Height: 50px; left: 50%; transform: translateX(-50%)}";
       button.mousePressed(start2PlayerGame);
   
       button1 = createButton('Player v Bot Game');
       button1.size(180,50)
       //button1.position(310, 225);
-      button1.position(windowWidth/2 - 90,340+225)
+      button1.position($(window).width()/2 - 90,340+225)
       button1.mousePressed(start1PlayerGame);
     
       button2 = createButton('How To Play');
       button2.size(180,25)
       //button2.position(310, 400);
-      button2.position(windowWidth/2 - 90,340+400)
+      button2.position($(window).width()/2 - 90,340+400)
       button2.mousePressed(showRules);    
   }
   
@@ -452,7 +452,7 @@ function preload() {
           resetButton = createButton('Back to Start Screen');
           resetButton.size(180,25)
           //resetButton.position(310, 500);
-          resetButton.position(windowWidth/2 - 90,340+500)
+          resetButton.position($(window).width()/2 - 90,340+500)
           resetButton.mousePressed(resetGame); 
   }
   
@@ -543,7 +543,7 @@ function preload() {
           resetButton = createButton('Back to Start Screen');
           resetButton.size(180,25)
           //resetButton.position(310, 500);
-          resetButton.position(windowWidth/2 - 90,340+500)
+          resetButton.position($(window).width()/2 - 90,340+500)
           resetButton.mousePressed(resetGame); 
   
   }
