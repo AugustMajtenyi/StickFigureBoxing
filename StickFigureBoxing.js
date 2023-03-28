@@ -1,18 +1,18 @@
 /** [p5.sound]  Version: 0.3.12 - 2020-01-06 */ 
 function preload() {
-    P1a = loadImage('images/StickFigureBoxing/Player1_position1.png');
-    P2a = loadImage('images/StickFigureBoxing/Player1_position2.png');
-    P3a = loadImage('images/StickFigureBoxing/Player1_position3.png');
-    P4a = loadImage('images/StickFigureBoxing/Player1_position4.png');
-    P5a = loadImage('images/StickFigureBoxing/Player1_position5.png');
-    P6a = loadImage('images/StickFigureBoxing/Player1_position6.png');
-    P1b = loadImage('images/StickFigureBoxing/Player2_position1.png');
-    P2b = loadImage('images/StickFigureBoxing/Player2_position2.png');
-    P3b = loadImage('images/StickFigureBoxing/Player2_position3.png');
-    P4b = loadImage('images/StickFigureBoxing/Player2_position4.png');
-    P5b = loadImage('images/StickFigureBoxing/Player2_position5.png');
-    P6b = loadImage('images/StickFigureBoxing/Player2_position6.png');
-    Background = loadImage('images/StickFigureBoxing/SFB_Background.png')
+    P1a = loadImage('images/Player1_position1.png');
+    P2a = loadImage('images/Player1_position2.png');
+    P3a = loadImage('images/Player1_position3.png');
+    P4a = loadImage('images/Player1_position4.png');
+    P5a = loadImage('images/Player1_position5.png');
+    P6a = loadImage('images/Player1_position6.png');
+    P1b = loadImage('images/Player2_position1.png');
+    P2b = loadImage('images/Player2_position2.png');
+    P3b = loadImage('images/Player2_position3.png');
+    P4b = loadImage('images/Player2_position4.png');
+    P5b = loadImage('images/Player2_position5.png');
+    P6b = loadImage('images/Player2_position6.png');
+    Background = loadImage('images/SFB_Background.png')
     BP1 = loadSound('sounds/bodyPunch1.mp4')
     BP2 = loadSound('sounds/bodyPunch2.mp4')
     Block = loadSound('sounds/blockedPunch1.mp4')
