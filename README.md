@@ -4,7 +4,7 @@ ________________________________________________________________________________
 
 Usage:
 
-To use on your own computer, you'll need to install jQuery and host a local server to connect to the p5.js libraries.
+To use on your own computer, you'll need to host a local server to connect to the p5.js libraries. I have found https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related?hl=en to be an easy solution for this.
 
 ______________________________________________________________________________________________________________________
 
